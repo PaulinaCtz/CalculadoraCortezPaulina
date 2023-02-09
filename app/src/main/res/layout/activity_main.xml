@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width= "wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvCalculadora"
+        android:layout_gravity="center"
+        android:padding="3dip"
+        android:text="CALCULADORA"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tvArriba"
+        android:layout_gravity="center"
+        android:padding="3dip"
+        android:text=""
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tvAbajo"
+        android:layout_gravity="center"
+        android:padding="3dip"
+        android:text=""
+        android:textSize="30dp" />
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/bn7"
+            android:layout_column="1"
+            android:layout_margin="15dp"
+            android:layout_weight="95"
+            android:onClick="presionarNumero"
+            android:padding="20dip"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/bn8"
+            android:layout_margin="15dp"
+            android:layout_weight="95"
+            android:onClick="presionarNumero"
+            android:padding="20dip"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/bn9"
+            android:layout_margin="15dp"
+            android:layout_weight="95"
+            android:onClick="presionarNumero"
+            android:padding="20dip"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/bnSum"
+            android:layout_margin="15dp"
+            android:layout_weight="95"
+            android:onClick="presionarOperacion"
+            android:padding="20dip"
+            android:text="+" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/bn4"
+            android:layout_column="1"
+            android:layout_margin="15dp"
+            android:layout_weight="95"
+            android:onClick="presionarNumero"
+            android:padding="20dip"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/bn5"
+            android:layout_margin="15dp"
+            android:layout_weight="95"
+            android:onClick="presionarNumero"
+            android:padding="20dip"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/bn6"
+            android:layout_margin="15dp"
+            android:layout_weight="95"
+            android:onClick="presionarNumero"
+            android:padding="20dip"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/bnResta"
+            android:layout_margin="15dp"
+            android:layout_weight="95"
+            android:onClick="presionarOperacion"
+            android:padding="20dip"
+            android:text="-" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/bn1"
+            android:layout_column="1"
+            android:layout_margin="15dp"
+            android:layout_weight="95"
+            android:onClick="presionarNumero"
+            android:padding="20dip"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/bn2"
+            android:layout_margin="15dp"
+            android:layout_weight="95"
+            android:onClick="presionarNumero"
+            android:padding="20dip"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/bn3"
+            android:layout_margin="15dp"
+            android:layout_weight="95"
+            android:onClick="presionarNumero"
+            android:padding="20dip"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/bnMul"
+            android:layout_margin="15dp"
+            android:layout_weight="95"
+            android:onClick="presionarOperacion"
+            android:padding="20dip"
+            android:text="*" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/bn0"
+            android:layout_column="1"
+            android:layout_margin="15dp"
+            android:layout_weight="95"
+            android:onClick="presionarNumero"
+            android:padding="20dip"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/bnIgual"
+            android:layout_margin="15dp"
+            android:layout_weight="95"
+            android:padding="20dip"
+            android:text="=" />
+
+        <Button
+            android:id="@+id/bnC"
+            android:layout_margin="15dp"
+            android:layout_weight="95"
+            android:padding="20dip"
+            android:text="c" />
+
+        <Button
+            android:id="@+id/bnDiv"
+            android:layout_margin="15dp"
+            android:layout_weight="95"
+            android:onClick="presionarOperacion"
+            android:padding="20dip"
+            android:text="/" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tvError"
+        android:layout_gravity="center"
+        android:padding="3dip"
+        android:text=""
+        android:textSize="30dp" />
+
+
+</TableLayout>
